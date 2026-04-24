@@ -13,7 +13,7 @@ keywords: >-
 lang: en
 icon: "fas fa-atom"
 url: "https://REPLACE_WITH_GITHUB_USERNAME.github.io"
-baseurl: ""
+baseurl: "/sanidhya-gupta"
 last_updated: false
 impressum_path: null
 back_to_top: true
@@ -29,7 +29,7 @@ footer_fixed: true
 search_enabled: false
 max_width: 960px
 
-repository: REPLACE_WITH_GITHUB_USERNAME/REPLACE_WITH_REPOSITORY_NAME
+repository: REPLACE_WITH_GITHUB_USERNAME/sanidhya-gupta
 
 remote_theme: alshedivat/al-folio
 

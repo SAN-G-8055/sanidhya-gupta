@@ -46,7 +46,7 @@ Update the following before deployment:
    - File: [`_config.yml`](/Users/sqgh94@durham.ac.uk/Downloads/sanidhya-gupta-academic-site/_config.yml)
    - Replace:
      - `REPLACE_WITH_GITHUB_USERNAME`
-     - `REPLACE_WITH_REPOSITORY_NAME`
+   - Repository name is set to `sanidhya-gupta`
 
 2. Google Scholar profile
    - File: [`_config.yml`](/Users/sqgh94@durham.ac.uk/Downloads/sanidhya-gupta-academic-site/_config.yml)
@@ -124,12 +124,12 @@ baseurl: ""
 
 ### For a project site
 
-Use any repository name, then update:
+This project is currently configured for a repository named `sanidhya-gupta`. Update:
 
 ```yaml
 url: "https://YOUR_GITHUB_USERNAME.github.io"
-baseurl: "/YOUR_REPOSITORY_NAME"
-repository: YOUR_GITHUB_USERNAME/YOUR_REPOSITORY_NAME
+baseurl: "/sanidhya-gupta"
+repository: YOUR_GITHUB_USERNAME/sanidhya-gupta
 ```
 
 ## Notes
