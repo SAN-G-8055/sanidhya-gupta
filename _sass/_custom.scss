@@ -1,0 +1,231 @@
+$accent-blue: #1f5fa8;
+$accent-blue-dark: #174a81;
+$soft-blue: #edf4fb;
+$border-soft: #d9e6f3;
+$text-dark: #2c3440;
+$text-muted: #5a6675;
+$card-shadow: 0 10px 30px rgba(31, 95, 168, 0.08);
+
+body {
+  background-color: #ffffff;
+  color: $text-dark;
+}
+
+a,
+a:visited {
+  color: $accent-blue;
+}
+
+a:hover,
+a:focus {
+  color: $accent-blue-dark;
+}
+
+.navbar,
+footer.fixed-bottom {
+  background: rgba(255, 255, 255, 0.96);
+  border-color: $border-soft;
+  box-shadow: 0 8px 25px rgba(31, 95, 168, 0.04);
+}
+
+.navbar .navbar-nav .nav-link,
+.navbar .navbar-brand,
+footer.fixed-bottom {
+  color: $text-dark;
+}
+
+.post-title,
+.title,
+h1,
+h2,
+h3,
+h4 {
+  color: #1f2e3d;
+  letter-spacing: -0.01em;
+}
+
+.home-title {
+  font-size: clamp(2.4rem, 4vw, 3.6rem);
+  line-height: 1.05;
+  margin-bottom: 0.6rem;
+}
+
+.home-subtitle {
+  font-size: 1.2rem;
+  color: $accent-blue-dark;
+  font-weight: 600;
+  margin-bottom: 0.35rem;
+}
+
+.home-affiliation,
+.home-meta,
+.small-note,
+.profile-caption,
+.news-date {
+  color: $text-muted;
+}
+
+.home-intro {
+  font-size: 1.08rem;
+  max-width: 42rem;
+}
+
+.eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  font-size: 0.8rem;
+  color: $accent-blue;
+  font-weight: 700;
+  margin-bottom: 0.9rem;
+}
+
+.hero-grid {
+  display: grid;
+  gap: 2.25rem;
+  align-items: start;
+  grid-template-columns: minmax(0, 1.8fr) minmax(260px, 0.9fr);
+  margin-top: 1rem;
+}
+
+.profile-card,
+.theme-card,
+.contact-card,
+.news-item,
+.publication-note {
+  background: #fff;
+  border: 1px solid $border-soft;
+  border-radius: 18px;
+  box-shadow: $card-shadow;
+}
+
+.profile-card {
+  padding: 1rem;
+}
+
+.profile-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 14px;
+  border: 1px solid $border-soft;
+}
+
+.profile-caption {
+  font-size: 0.9rem;
+  margin: 0.9rem 0 0;
+}
+
+.pill-row,
+.button-row,
+.social-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.pill-row {
+  margin: 1.35rem 0;
+}
+
+.interest-pill {
+  background: $soft-blue;
+  color: $accent-blue-dark;
+  border: 1px solid $border-soft;
+  border-radius: 999px;
+  padding: 0.5rem 0.85rem;
+  font-size: 0.92rem;
+}
+
+.primary-button,
+.secondary-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 999px;
+  padding: 0.75rem 1.2rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: transform 0.18s ease, box-shadow 0.18s ease, background 0.18s ease;
+}
+
+.primary-button {
+  background: $accent-blue;
+  border: 1px solid $accent-blue;
+  color: #fff !important;
+  box-shadow: 0 10px 24px rgba(31, 95, 168, 0.18);
+}
+
+.secondary-button {
+  background: #fff;
+  border: 1px solid $border-soft;
+  color: $accent-blue !important;
+}
+
+.primary-button:hover,
+.secondary-button:hover {
+  transform: translateY(-1px);
+}
+
+.social-row {
+  margin-top: 1rem;
+}
+
+.social-row a {
+  font-weight: 500;
+}
+
+.section-block {
+  margin-top: 3rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid $border-soft;
+}
+
+.theme-grid,
+.contact-grid,
+.news-list {
+  display: grid;
+  gap: 1rem;
+}
+
+.theme-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.news-list,
+.contact-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.theme-card,
+.contact-card,
+.news-item {
+  padding: 1.2rem;
+}
+
+.theme-card p,
+.news-item p,
+.contact-card p {
+  margin-bottom: 0;
+}
+
+.publication-note {
+  padding: 1rem 1.15rem;
+  margin-bottom: 1.5rem;
+  background: linear-gradient(180deg, #ffffff 0%, #f8fbff 100%);
+}
+
+.cv-button-row {
+  margin-bottom: 0.5rem;
+}
+
+@media (max-width: 900px) {
+  .hero-grid,
+  .theme-grid,
+  .news-list,
+  .contact-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-grid {
+    gap: 1.5rem;
+  }
+}

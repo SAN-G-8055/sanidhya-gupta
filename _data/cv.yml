@@ -1,0 +1,138 @@
+- title: General Information
+  type: map
+  contents:
+    - name: Full Name
+      value: Sanidhya Gupta
+    - name: Current Role
+      value: PhD Student in Computer Science (Quantum Information and Networking)
+    - name: Institution
+      value: Durham University, United Kingdom
+    - name: Email
+      value: sanidhya.gupta@durham.ac.uk
+    - name: Supervisors
+      value: Dr. Thirupathaiah Vasantam and Prof. Neil Walton
+
+- title: Research Interests
+  type: nested_list
+  contents:
+    - title: Current interests
+      items:
+        - Modular fault-tolerant quantum computing
+        - Distributed quantum error correction
+        - Quantum networking
+        - Scheduling and resource allocation for quantum architectures
+        - Measurement-based quantum computation
+
+- title: Education
+  type: time_table
+  contents:
+    - title: PhD in Computer Science (Quantum Information and Networking)
+      institution: Durham University, United Kingdom
+      year: Oct. 2025 - Present
+      description:
+        - EPSRC Doctoral Landscape Award recipient
+    - title: BS-MS
+      institution: Indian Institute of Science Education and Research (IISER) Bhopal, India
+      year: Aug. 2019 - June 2024
+      description:
+        - Major in Electrical Engineering and Computer Science
+        - Minor in Data Science
+        - CPI: 9.01/10.00
+
+- title: Publications and Preprints
+  type: time_table
+  contents:
+    - title: Boundary-Aware Stabilizer Scheduling for Distributed Quantum Error Correction
+      institution: IEEE International Conference on Quantum Computing and Engineering (QCE)
+      year: 2026
+      description:
+        - S. Gupta, S. Bhambay, N. Alavisamani, N. Walton, and T. Vasantam
+        - Submitted
+    - title: A Provably Secure Framework for Noise-Aware Delegated Quantum Computation and Storage
+      institution: Quantum Information Processing
+      year: 2025
+      description:
+        - S. Gupta and A. Raina
+        - Under review
+        - arXiv:2403.07596
+    - title: A feed-forward method for encoding a Stabilizer Code using Measurement-Based Quantum Computing
+      institution: QADA Workshop at IEEE QCE, Montréal, Canada
+      year: 2024
+      description:
+        - S. Gupta and A. Raina
+        - DOI: 10.1109/QCE60285.2024.10252
+    - title: Quantum Network Coding and Distribution of Maximally Entangled States in Measurement-Based Quantum Computing
+      institution: National Conference on Communications (NCC), IIT Guwahati, India
+      year: 2023
+      description:
+        - C. Pandey, S. Gupta, R. R. Das, and A. Raina
+        - DOI: 10.1109/NCC56989.2023.10067927
+
+- title: Presentations
+  type: time_table
+  contents:
+    - title: A feed-forward method for encoding a Stabilizer Code using Measurement-Based Quantum Computing
+      institution: QADA Workshop at IEEE QCE, Montréal, Canada
+      year: 2024
+      description:
+        - Workshop presentation
+    - title: A feed-forward method for encoding a Stabilizer Code using Measurement-Based Quantum Computing
+      institution: QCMC, IIT Madras, India
+      year: 2024
+      description:
+        - Poster presentation
+        - August 26 to 30, 2024
+
+- title: Fellowships and Honors
+  type: time_table
+  contents:
+    - title: EPSRC Doctoral Landscape Award
+      institution: Durham University
+      year: 2025 - 2029
+    - title: Chanakya PG Fellowship
+      institution: Nationwide award
+      year: 2024
+      description:
+        - One of only 9 recipients nationwide
+    - title: Chanakya UG Fellowship
+      institution: Nationwide award
+      year: 2022
+      description:
+        - One of only 5 recipients nationwide
+    - title: QHack 2024
+      institution: Global quantum hackathon
+      year: 2024
+      description:
+        - Team ranked 17th among 700+ global teams
+    - title: IBM Certified Associate Developer – Quantum Computation using Qiskit
+      institution: IBM
+      year: "[YEAR PLACEHOLDER IF YOU WANT TO ADD IT]"
+
+- title: Technical Skills
+  type: nested_list
+  contents:
+    - title: Quantum
+      items:
+        - Stim
+        - Qiskit
+        - Cirq
+        - PennyLane
+        - TensorFlow Quantum
+        - Amazon Braket
+    - title: Programming
+      items:
+        - Python
+        - C/C++
+        - MATLAB
+        - CUDA
+    - title: Scientific computing
+      items:
+        - NumPy
+        - Pandas
+        - Scikit-learn
+        - TensorFlow
+        - Matplotlib
+    - title: Platforms
+      items:
+        - IBM Quantum Cloud
+        - AWS

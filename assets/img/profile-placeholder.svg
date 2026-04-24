@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="840" viewBox="0 0 700 840" role="img" aria-labelledby="title desc">
+  <title id="title">Profile placeholder</title>
+  <desc id="desc">Minimal profile image placeholder with blue academic styling.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f8fbff"/>
+      <stop offset="100%" stop-color="#e6f0fb"/>
+    </linearGradient>
+  </defs>
+  <rect width="700" height="840" fill="url(#bg)"/>
+  <rect x="55" y="55" width="590" height="730" rx="28" fill="#ffffff" stroke="#d8e6f4" stroke-width="3"/>
+  <circle cx="350" cy="300" r="116" fill="#dbeaf8"/>
+  <path d="M208 605c18-90 96-146 142-146s124 56 142 146" fill="#dbeaf8"/>
+  <text x="350" y="700" text-anchor="middle" fill="#1f5fa8" font-family="Helvetica, Arial, sans-serif" font-size="28" font-weight="700">Profile Photo</text>
+  <text x="350" y="740" text-anchor="middle" fill="#5a6675" font-family="Helvetica, Arial, sans-serif" font-size="20">Replace with assets/img/profile.jpg</text>
+</svg>

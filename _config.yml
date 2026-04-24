@@ -1,0 +1,107 @@
+title: Sanidhya Gupta
+first_name: Sanidhya
+last_name: Gupta
+email: sanidhya.gupta@durham.ac.uk
+description: >-
+  Academic website of Sanidhya Gupta, PhD Student in Computer Science at Durham
+  University working on modular fault-tolerant quantum computing, distributed
+  quantum error correction, and quantum networking.
+keywords: >-
+  Sanidhya Gupta, quantum computing, distributed quantum error correction,
+  modular fault-tolerant quantum computing, Durham University, quantum
+  networking, measurement-based quantum computation
+lang: en
+icon: "fas fa-atom"
+url: "https://REPLACE_WITH_GITHUB_USERNAME.github.io"
+baseurl: ""
+last_updated: false
+impressum_path: null
+back_to_top: true
+enable_navbar_social: false
+enable_theme_social: false
+enable_project_categories: false
+enable_medium_zoom: true
+enable_anchorjs: true
+enable_math: false
+enable_tooltips: true
+navbar_fixed: true
+footer_fixed: true
+search_enabled: false
+max_width: 960px
+
+repository: REPLACE_WITH_GITHUB_USERNAME/REPLACE_WITH_REPOSITORY_NAME
+
+remote_theme: alshedivat/al-folio
+
+plugins:
+  - jekyll-remote-theme
+  - jekyll/scholar
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+collections:
+  news:
+    output: false
+
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: page
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+  - scope:
+      path: ""
+      type: news
+    values:
+      layout: post
+
+scholar:
+  source: _bibliography
+  bibliography: papers.bib
+  bibliography_template: bib
+  style: ieee
+  locale: en
+  sort_by: year
+  order: descending
+  group_by: year
+  group_order: descending
+  query: "@*"
+  bibtex_filters:
+    - latex
+    - smallcaps
+  details_dir: bibliography
+  details_link: BibTeX
+  replace_strings: true
+  join_strings: true
+  use_raw_bibtex_entry: false
+
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+sass:
+  style: compressed
+
+footer_text: >-
+  <a href="mailto:sanidhya.gupta@durham.ac.uk">sanidhya.gupta@durham.ac.uk</a>
+  &nbsp;·&nbsp;
+  <a href="https://github.com/REPLACE_WITH_GITHUB_USERNAME">GitHub</a>
+  &nbsp;·&nbsp;
+  <a href="https://scholar.google.com/citations?user=REPLACE_WITH_SCHOLAR_ID">Google Scholar</a>
+  &nbsp;·&nbsp;
+  <a href="https://www.linkedin.com/in/REPLACE_WITH_LINKEDIN_USERNAME/">LinkedIn</a>
+
+exclude:
+  - README.md
