@@ -39,6 +39,7 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
+  - jekyll-toc
 
 collections:
   news:
@@ -79,7 +80,6 @@ scholar:
   details_link: BibTeX
   replace_strings: true
   join_strings: true
-  use_raw_bibtex_entry: false
 
 markdown: kramdown
 highlighter: rouge
