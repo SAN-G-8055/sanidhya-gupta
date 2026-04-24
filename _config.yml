@@ -12,7 +12,7 @@ keywords: >-
   networking, measurement-based quantum computation
 lang: en
 icon: "fas fa-atom"
-url: "https://REPLACE_WITH_GITHUB_USERNAME.github.io"
+url: "https://san-g-8055.github.io"
 baseurl: "/sanidhya-gupta"
 last_updated: false
 impressum_path: null
@@ -29,7 +29,7 @@ footer_fixed: true
 search_enabled: false
 max_width: 960px
 
-repository: REPLACE_WITH_GITHUB_USERNAME/sanidhya-gupta
+repository: SAN-G-8055/sanidhya-gupta
 
 remote_theme: alshedivat/al-folio
 
@@ -97,7 +97,7 @@ sass:
 footer_text: >-
   <a href="mailto:sanidhya.gupta@durham.ac.uk">sanidhya.gupta@durham.ac.uk</a>
   &nbsp;·&nbsp;
-  <a href="https://github.com/REPLACE_WITH_GITHUB_USERNAME">GitHub</a>
+  <a href="https://github.com/SAN-G-8055">GitHub</a>
   &nbsp;·&nbsp;
   <a href="https://scholar.google.com/citations?user=REPLACE_WITH_SCHOLAR_ID">Google Scholar</a>
   &nbsp;·&nbsp;

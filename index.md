@@ -35,7 +35,7 @@ description: Home page for Sanidhya Gupta, PhD Student in Computer Science at Du
 
     <div class="social-row">
       <a href="mailto:sanidhya.gupta@durham.ac.uk">Email</a>
-      <a href="https://github.com/REPLACE_WITH_GITHUB_USERNAME">GitHub</a>
+      <a href="https://github.com/SAN-G-8055">GitHub</a>
       <a href="https://scholar.google.com/citations?user=REPLACE_WITH_SCHOLAR_ID">Google Scholar</a>
       <a href="https://www.linkedin.com/in/REPLACE_WITH_LINKEDIN_USERNAME/">LinkedIn</a>
     </div>

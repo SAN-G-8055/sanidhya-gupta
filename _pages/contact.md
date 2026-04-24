@@ -19,7 +19,7 @@ description: Contact information.
   <div class="contact-card">
     <h2>Profiles</h2>
     <p><a href="https://scholar.google.com/citations?user=REPLACE_WITH_SCHOLAR_ID">Google Scholar</a></p>
-    <p><a href="https://github.com/REPLACE_WITH_GITHUB_USERNAME">GitHub</a></p>
+    <p><a href="https://github.com/SAN-G-8055">GitHub</a></p>
     <p><a href="https://www.linkedin.com/in/REPLACE_WITH_LINKEDIN_USERNAME/">LinkedIn</a></p>
   </div>
   <div class="contact-card">
