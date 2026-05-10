@@ -3,7 +3,7 @@ layout: page
 title: Research
 permalink: /research/
 nav: true
-nav_order: 3
+nav_order: 2
 ---
 
 1. [Boundary-Aware Stabilizer Scheduling for Distributed Quantum Error Correction](https://arxiv.org/abs/2604.22471). Gupta, S., Bhambay, S., Alavisamani, N., Walton, N., & Vasantam, T. (2026).

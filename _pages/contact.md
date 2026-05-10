@@ -3,7 +3,7 @@ layout: page
 title: Contact
 permalink: /contact/
 nav: true
-nav_order: 7
+nav_order: 3
 ---
 
 <div class="contact-grid">
