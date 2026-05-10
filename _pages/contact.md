@@ -22,5 +22,3 @@ nav_order: 7
     <p><a href="https://www.linkedin.com/in/sanidhya-gupta-79324719b">LinkedIn</a></p>
   </div>
 </div>
-
-Please feel free to get in touch regarding research collaborations, talks, or related academic conversations.
