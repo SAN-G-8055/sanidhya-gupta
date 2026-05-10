@@ -331,3 +331,22 @@ article .clearfix {
     gap: 1.5rem;
   }
 }
+
+/* Strong overrides to ensure theme colors apply correctly (fixes GitHub Pages ordering issues) */
+html body, body {
+  color: #2c3440 !important;
+}
+a, a:visited {
+  color: #1f5fa8 !important;
+}
+a:hover, a:focus {
+  color: #174a81 !important;
+}
+.home-title, .post-title, .title, h1, h2, h3, h4 {
+  color: #1f2e3d !important;
+}
+.hero-grid > div:first-child {
+  background: #edf4fb !important;
+  border-color: #d9e6f3 !important;
+}
+
