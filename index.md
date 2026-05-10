@@ -29,7 +29,7 @@ Hello! I am a Ph.D. student in Computer Science (Quantum Information & Networkin
 
 My research lies at the intersection of **quantum computing, network theory, and computer architecture**. I focus on developing systems-level scheduling and resource-allocation frameworks for **Modular Fault-Tolerant Quantum Computing (FTQC)**. My goal is to design control and networking protocols that allow distributed, multi-core quantum computers to act as a single, powerful machine. To do this, I combine tools from queueing theory, stochastic modeling, and quantum error correction.
 
-Previously, I completed my BS-MS (Major in EECS, Minor in Data Science) at IISER Bhopal, advised by [Dr. Ankur Raina](https://sites.google.com/view/ankurraina/). During this time, my research in measurement-based quantum computing (MBQC) and quantum network coding was partly supported by the Chanakya UG and PG Fellowships, awarded by the Department of Science (Government of India).
+Previously, I completed my BS-MS (Major in EECS, Minor in Data Science) at <a href="https://www.iiserb.ac.in/">IISER Bhopal</a>, advised by <a href="https://sites.google.com/view/ankurraina/">Dr. Ankur Raina</a>. During this time, I worked on measurement-based quantum computing (MBQC) and quantum network coding. This research was partly supported by the <a href="https://www.quantech.org.in/about/fellowships">Chanakya UG and PG Fellowships</a>, awarded by the Department of Science (Government of India).
 
 You can find more details in my [Curriculum Vitae]({{ '/assets/pdf/Sanidhya_Gupta_CV.pdf' | relative_url }}). I am always happy to chat about quantum architecture, network theory, or potential collaborations. Feel free to reach out via email!
 
