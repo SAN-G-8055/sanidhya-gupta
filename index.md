@@ -20,18 +20,18 @@ profile:
       </a>
     </div>
 
-news: false  
+news: true  
 selected_papers: false 
 social: true  
 ---
 
 Hello! I am a Ph.D. student in Computer Science (Quantum Information & Networking) at <a href="https://www.durham.ac.uk/departments/academic/computer-science/">Durham University</a>, advised by [Dr. Thirupathaiah Vasantam](https://scholar.google.com/citations?user=tRd9i5kAAAAJ&hl=en) and [Prof. Neil Walton](https://scholar.google.com/citations?user=6ggttpsAAAAJ&hl=en). 
 
-My research lies at the intersection of **quantum computing, network theory, and computer architecture**. I focus on developing systems-level scheduling and resource-allocation frameworks for **Modular Fault-Tolerant Quantum Computing (FTQC)**. By combining queueing theory, stochastic modeling, and quantum error correction, my goal is to design the classical control and networking protocols that will allow distributed multi-core quantum computers to achieve monolithic logical performance.
+My research lies at the intersection of **quantum computing, network theory, and computer architecture**. I focus on developing systems-level scheduling and resource-allocation frameworks for **Modular Fault-Tolerant Quantum Computing (FTQC)**. My goal is to design control and networking protocols that allow distributed, multi-core quantum computers to act as a single, powerful machine. To do this, I combine tools from queueing theory, stochastic modeling, and quantum error correction.
 
-Previously, I completed my BS-MS (Major in EECS, Minor in Data Science) at IISER Bhopal, advised by [Dr. Ankur Raina](https://sites.google.com/view/ankurraina/). During this time, my research in measurement-based quantum computing (MBQC) and quantum network coding was partly supported by the prestigious Chanakya UG and PG Fellowships, awarded by the Government of India.
+Previously, I completed my BS-MS (Major in EECS, Minor in Data Science) at IISER Bhopal, advised by [Dr. Ankur Raina](https://sites.google.com/view/ankurraina/). During this time, my research in measurement-based quantum computing (MBQC) and quantum network coding was partly supported by the Chanakya UG and PG Fellowships, awarded by the Department of Science (Government of India).
 
-You can find more details in my [Curriculum Vitae]({{ '/assets/pdf/Sanidhya_Gupta_CV.pdf' | relative_url }}), or reach out to me via email to chat about research!
+You can find more details in my [Curriculum Vitae]({{ '/assets/pdf/Sanidhya_Gupta_CV.pdf' | relative_url }}). I am always happy to chat about quantum architecture, network theory, or potential collaborations. Feel free to reach out via email!
 
 ***
 
