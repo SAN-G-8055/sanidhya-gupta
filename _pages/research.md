@@ -9,7 +9,5 @@ description: Research papers and publications.
 
 ## Publications
 
-Below are my research papers and publications, listed in reverse chronological order (latest first).
-
 {% bibliography %}
 
