@@ -38,7 +38,6 @@ You can find more details in my [Curriculum Vitae]({{ '/assets/pdf/Sanidhya_Gupt
 **Research Interests:**
 * **Modular Quantum Architectures:** Distributed Quantum Computing, Fault-tolerant quantum architectures, hardware-aware logical computation.
 * **Quantum Networking:** Entanglement routing, quantum network coding, graph-state bridges.
-* **Classical Control for FTQC:** Latency-aware scheduling, queueing-theoretic performance modeling.
 
 ***
 
