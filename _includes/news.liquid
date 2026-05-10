@@ -1,0 +1,19 @@
+<!-- News -->
+{% if page.news %}
+  {% assign news_items = site.news | sort: 'date' | reverse %}
+  {% if news_items.size > 0 %}
+    <div class="news">
+      <h2>News</h2>
+      <div class="news-list">
+        {% for item in news_items %}
+          {% if item.inline %}
+            <div class="news-item">
+              <div class="news-date">{{ item.date | date: "%b %d, %Y" }}</div>
+              <p>{{ item.content }}</p>
+            </div>
+          {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+  {% endif %}
+{% endif %}

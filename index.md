@@ -40,6 +40,12 @@ You can find more details in my [Curriculum Vitae]({{ '/assets/pdf/Sanidhya_Gupt
 * **Quantum Networking:** Entanglement routing, quantum network coding, graph-state bridges.
 * **Classical Control for FTQC:** Latency-aware scheduling, queueing-theoretic performance modeling.
 
+***
+
+**News:**
+* **October 01, 2025**: Started the PhD in Computer Science at Durham University in Quantum Information and Networking.
+* **May 10, 2026**: Attending the [QNetworks 2026 workshop](https://iqnhub.org/qnetworks-2026/#programme) on quantum networking and distributed quantum computing.
+
 <!-- Static footer for main page (kept small and muted) -->
 <footer class="page-footer">
   <div class="container">
