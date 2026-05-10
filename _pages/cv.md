@@ -2,7 +2,7 @@
 layout: cv
 title: CV
 permalink: /cv/
-nav: true
+nav: false
 nav_order: 5
 description: Curriculum vitae of Sanidhya Gupta.
 ---

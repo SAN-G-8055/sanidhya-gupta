@@ -2,7 +2,7 @@
 layout: page
 title: Talks / Presentations
 permalink: /talks/
-nav: true
+nav: false
 nav_order: 6
 description: Talks, workshop presentations, and posters.
 ---
