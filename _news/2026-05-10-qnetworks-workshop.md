@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2026-05-10
+date: 2025-05-10
 inline: true
 title: Attending QNetworks 2026 Workshop
 ---
