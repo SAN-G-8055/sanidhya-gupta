@@ -85,12 +85,13 @@ h4 {
 }
 
 .hero-grid > div:first-child {
-  background: $soft-blue;
-  border: 1px solid $border-soft;
-  border-radius: 16px;
-  padding: 2rem;
-  overflow-y: auto;
-  max-height: 80vh;
+  background: transparent;
+  border: none;
+  border-radius: 0;
+  padding: 0 2rem 0 2.5rem;
+  margin-left: 0.75rem;
+  overflow: visible;
+  max-height: none;
 }
 
 .profile-card,
@@ -312,11 +313,28 @@ article .profile .more-info {
 }
 
 article .clearfix {
-  background: $soft-blue;
-  border: 1px solid $border-soft;
-  border-radius: 16px;
-  padding: 2rem;
-  overflow: hidden;
+  background: transparent;
+  border: none;
+  border-radius: 0;
+  padding: 0 2rem 0 2.5rem;
+  margin-left: 0.75rem;
+  overflow: visible;
+}
+
+/* Keep the lower content aligned with the shifted text column */
+article .clearfix > p,
+article .clearfix > ul,
+article .clearfix > h3,
+article .clearfix > h4,
+article .clearfix > hr {
+  max-width: 100%;
+}
+
+@media (min-width: 901px) {
+  article .clearfix,
+  .hero-grid > div:first-child {
+    width: calc(100% - 0.75rem);
+  }
 }
 
 @media (max-width: 900px) {
