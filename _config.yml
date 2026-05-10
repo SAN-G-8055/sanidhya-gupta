@@ -2,6 +2,9 @@ title: Sanidhya Gupta
 first_name: Sanidhya
 last_name: Gupta
 email: sanidhya.gupta@durham.ac.uk
+github_username: SAN-G-8055
+linkedin_username: sanidhya-gupta-79324719b
+
 description: >-
   Academic website of Sanidhya Gupta, PhD Student in Computer Science at Durham
   University working on modular fault-tolerant quantum computing, distributed
@@ -36,7 +39,6 @@ remote_theme: alshedivat/al-folio
 plugins:
   - jekyll-remote-theme
   - jekyll/scholar
-  - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-toc
@@ -95,14 +97,16 @@ kramdown:
 sass:
   style: compressed
 
+# This block teaches the plugin how to handle academic links without crashing
+jekyll-socials:
+  custom_socials:
+    scholar_userid:
+      name: Google Scholar
+      url: "https://scholar.google.com/citations?user="
+      icon: "ai ai-google-scholar"
+
 footer_text: >-
-  <a href="mailto:sanidhya.gupta@durham.ac.uk">sanidhya.gupta@durham.ac.uk</a>
-  &nbsp;·&nbsp;
-  <a href="https://github.com/SAN-G-8055">GitHub</a>
-  &nbsp;·&nbsp;
-  <a href="https://scholar.google.com/citations?user=REPLACE_WITH_SCHOLAR_ID">Google Scholar</a>
-  &nbsp;·&nbsp;
-  <a href="https://www.linkedin.com/in/REPLACE_WITH_LINKEDIN_USERNAME/">LinkedIn</a>
+  © 2026 Sanidhya Gupta. Theme: <a href="https://github.com/alshedivat/al-folio">al-folio</a> (MIT License).
 
 exclude:
   - README.md
