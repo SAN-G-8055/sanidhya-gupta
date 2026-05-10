@@ -43,3 +43,11 @@ Current directions include:
 ## Updating this page
 
 Each section can later be expanded with project summaries, collaborators, figures, code links, or selected outputs without changing the overall layout.
+
+---
+
+## Publications
+
+Below are my research papers and publications, listed in reverse chronological order (latest first).
+
+{% bibliography --group_by year --group_order descending %}
