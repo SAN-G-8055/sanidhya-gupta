@@ -71,7 +71,6 @@ defaults:
 scholar:
   source: _bibliography
   bibliography: papers.bib
-  bibliography_template: bib
   style: ieee
   locale: en
   sort_by: year
@@ -82,8 +81,6 @@ scholar:
   bibtex_filters:
     - latex
     - smallcaps
-  details_dir: bibliography
-  details_link: BibTeX
   replace_strings: true
   join_strings: true
 

@@ -11,5 +11,5 @@ description: Research papers and publications.
 
 Below are my research papers and publications, listed in reverse chronological order (latest first).
 
-{% bibliography --group_by year --group_order descending %}
+{% bibliography %}
 
