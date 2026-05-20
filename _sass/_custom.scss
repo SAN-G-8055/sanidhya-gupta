@@ -34,6 +34,10 @@ footer.fixed-bottom {
   color: $text-dark;
 }
 
+.navbar .navbar-nav > li.nav-item:first-child > .nav-link::after {
+  content: "Home";
+}
+
 .post-title,
 .title,
 h1,
