@@ -1,27 +1,17 @@
----
-layout: about
-title: Home
-permalink: /
-nav: true
-nav_order: 1
+# Sanidhya Gupta - Academic Portfolio
 
-# Profile picture settings
-profile:
-  align: right
-  image: profile.jpg # Make sure to add your real photo to assets/img/profile.jpg
-  image_circular: true # Set to false if you prefer a square image
-  more_info: >
-    <p>Durham University</p>
-    <p>Durham, United Kingdom</p>
+This repository contains the source code for my personal academic website, hosted on GitHub Pages. 
 
-# Dynamic sections (these pull automatically from your other files)
-news: true
-selected_papers: false # Set to true once you have a papers.bib set up
-social: true
----
+🌐 **Live Website:** [san-g-8055.github.io/sanidhya-gupta/](https://san-g-8055.github.io/sanidhya-gupta/)
 
-I am a PhD student in Computer Science at **Durham University**, working in the fascinating intersection of Quantum Information and Networking. 
+## About Me
+I am a Ph.D. student in Computer Science at **Durham University**, working at the intersection of Quantum Information and Networking. My research focuses on modular fault-tolerant quantum computing, distributed quantum error correction, and quantum networking.
 
-My research focuses on **modular fault-tolerant quantum computing**, **distributed quantum error correction**, and **quantum networking**. I am particularly interested in scheduling and resource allocation for quantum architectures, as well as measurement-based quantum computation. 
+## Built With
+This website is built using a static site generator and deployed automatically via GitHub Actions.
+* **Framework:** [Jekyll](https://jekyllrb.com/)
+* **Theme:** [al-folio](https://github.com/alshedivat/al-folio) (A beautiful, clean Jekyll theme for academics)
+* **Hosting:** GitHub Pages
 
-You can [download my CV]({{ '/assets/pdf/Sanidhya_Gupta_CV.pdf' | relative_url }}) to see my full academic history, or browse my [publications]({{ '/publications/' | relative_url }}).
+## License
+The theme `al-folio` is open-sourced under the MIT License. The personal content, publications, and images belong to Sanidhya Gupta (© 2026).
