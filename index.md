@@ -45,7 +45,7 @@ You can find more details in my [Curriculum Vitae]({{ '/assets/pdf/Sanidhya_Gupt
 ***
 
 **News:**
-* **May 10, 2026**: Attending the [QNetworks 2026 workshop](https://iqnhub.org/qnetworks-2026/#programme) on quantum networking and distributed quantum computing.
+* **May 10, 2026**: Attending the [QNetworks 2026 workshop](https://iqnhub.org/qnetworks-2026/#programme), held in Bristol on 12-13 May 2026, on quantum networking and distributed quantum computing.
 * **October 01, 2025**: Started the PhD in Computer Science at Durham University in Quantum Information and Networking.
 
 <!-- Static footer for main page (kept small and muted) -->

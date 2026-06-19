@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Attended the [QNetworks 2026 workshop](https://iqnhub.org/qnetworks-2026/#programme) (May 12–13) on quantum networking and distributed quantum computing in Bristol.
+Attended the [QNetworks 2026 workshop](https://iqnhub.org/qnetworks-2026/#programme), held in Bristol on 12-13 May 2026, on quantum networking and distributed quantum computing.
