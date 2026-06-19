@@ -13,5 +13,21 @@ This website is built using a static site generator and deployed automatically v
 * **Theme:** [al-folio](https://github.com/alshedivat/al-folio) (A beautiful, clean Jekyll theme for academics)
 * **Hosting:** GitHub Pages
 
+## Local Preview
+For local preview on your Mac, use:
+
+```bash
+bundle exec jekyll clean
+bundle exec jekyll serve --config _config.yml,_config_local.yml
+```
+
+Then open:
+
+```text
+http://127.0.0.1:4000/
+```
+
+The file `_config_local.yml` overrides the GitHub Pages project `baseurl` so styles and images load correctly during local preview.
+
 ## License
 The theme `al-folio` is open-sourced under the MIT License. The personal content, publications, and images belong to Sanidhya Gupta (© 2026).
