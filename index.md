@@ -33,7 +33,7 @@ My research lies at the intersection of **quantum computing, network theory, and
 
 Previously, I completed my BS-MS (Major in EECS, Minor in Data Science) at <a href="https://www.iiserb.ac.in/">IISER Bhopal</a>, advised by <a href="https://sites.google.com/view/ankurraina/">Dr. Ankur Raina</a>. During this time, I worked on measurement-based quantum computing (MBQC) and quantum network coding. This research was partly supported by the <a href="https://www.quantech.org.in/about/fellowships">Chanakya UG and PG Fellowships</a>, awarded by the Department of Science (Government of India).
 
-You can find more details in my [Curriculum Vitae]({{ '/assets/pdf/Sanidhya_Gupta_CV.pdf' | relative_url }}). I am always happy to chat about quantum architecture, network theory, or potential collaborations. Feel free to reach out via email!
+You can find more details in my [Curriculum Vitae]({{ '/assets/pdf/Sanidhya_Gupta_CV.pdf' | relative_url }}). I am always happy to chat about quantum architecture, network theory, or potential collaborations. Feel free to reach out at [sanidhya.gupta@durham.ac.uk](mailto:sanidhya.gupta@durham.ac.uk).
 
 ***
 
