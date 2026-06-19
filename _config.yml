@@ -14,7 +14,7 @@ keywords: >-
   modular fault-tolerant quantum computing, Durham University, quantum
   networking, measurement-based quantum computation
 lang: en
-icon: "fas fa-atom"
+icon: "favicon.svg"
 url: "https://san-g-8055.github.io"
 baseurl: "/sanidhya-gupta"
 last_updated: false
@@ -32,17 +32,61 @@ footer_fixed: true
 search_enabled: false
 max_width: 960px
 
+al_folio:
+  api_version: 1
+  style_engine: tailwind
+  tailwind:
+    version: 4.1.18
+    preflight: false
+    css_entry: assets/tailwind/app.css
+  distill:
+    engine: distillpub-template
+    source: al-org-dev/distill-template#al-folio
+    allow_remote_loader: false
+
 repository: SAN-G-8055/sanidhya-gupta
 
-remote_theme: alshedivat/al-folio
+theme: al_folio_core
 
 plugins:
-  - jekyll-remote-theme
+  - jekyll-3rd-party-libraries
+  - jekyll-archives-v2
+  - jekyll-cache-bust
+  - jekyll-email-protect
+  - jekyll-feed
+  - jekyll-get-json
+  - jekyll-imagemagick
+  - jekyll-jupyter-notebook
+  - jekyll-link-attributes
+  - jekyll-minifier
+  - jekyll-paginate-v2
+  - jekyll-regex-replace
   - jekyll/scholar
   - jekyll-sitemap
+  - jekyll-tabs
+  - jekyll-terser
   - jekyll-seo-tag
   - jekyll-toc
   - jekyll-socials
+  - jekyll-twitter-plugin
+  - jemoji
+  - classifier-reborn
+  - al_folio_core
+  - al_icons
+  - al_folio_cv
+  - al_folio_distill
+  - al_folio_upgrade
+  - al_folio_bootstrap_compat
+  - al_cookie
+  - al_analytics
+  - al_citations
+  - al_ext_posts
+  - al_img_tools
+  - al_search
+  - al_charts
+  - al_math
+  - al_comments
+  - al_newsletter
 
 collections:
   pages:
@@ -92,6 +136,9 @@ kramdown:
   input: GFM
   syntax_highlighter: rouge
 
+include:
+  - _pages
+
 sass:
   style: compressed
 
@@ -102,6 +149,34 @@ jekyll-socials:
       name: Google Scholar
       url: "https://scholar.google.com/citations?user="
       icon: "ai ai-google-scholar"
+
+third_party_libraries:
+  download: false
+  fontawesome:
+    integrity:
+      css: "sha256-MVopmdyC2tYTiJ8wlktf0uh0v4NgT+vNdyVFepi7Q0c="
+    url:
+      css: "https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@{{version}}/css/all.min.css"
+    version: "7.2.0"
+  academicons:
+    integrity:
+      css: "sha256-SzrCOBJbGVFMahewkgjwnApaV2+av1DwMAA+/QGLyZw="
+    url:
+      css: "https://cdn.jsdelivr.net/npm/academicons@{{version}}/css/academicons.min.css"
+    version: "1.9.5"
+  google_fonts:
+    url:
+      fonts: "https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&display=swap"
+  highlightjs:
+    integrity:
+      css:
+        light: "sha256-Oppd74ucMR5a5Dq96FxjEzGF7tTw2fZ/6ksAqDCM8GY="
+        dark: "sha256-nyCNAiECsdDHrr/s2OQsp5l9XeY2ZJ0rMepjCT2AkBk="
+    url:
+      css:
+        light: "https://cdn.jsdelivr.net/npm/highlight.js@{{version}}/styles/github.min.css"
+        dark: "https://cdn.jsdelivr.net/npm/highlight.js@{{version}}/styles/github-dark.min.css"
+    version: "11.9.0"
 
 footer_text: >-
   © 2026 Sanidhya Gupta. Theme: <a href="https://github.com/alshedivat/al-folio">al-folio</a> (MIT License).
