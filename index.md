@@ -45,5 +45,6 @@ You can find more details in my [Curriculum Vitae]({{ '/assets/pdf/Sanidhya_Gupt
 ***
 
 **News:**
+* **June 18, 2026**: Attended the [INFORMED AI Summer School 2026](https://informed-ai.net/event/summer-school-2026/), held at the University of Bristol School of Mathematics from 15-18 June 2026.
 * **May 10, 2026**: Attending the [QNetworks 2026 workshop](https://iqnhub.org/qnetworks-2026/#programme), held in Bristol on 12-13 May 2026, on quantum networking and distributed quantum computing.
 * **October 01, 2025**: Started the PhD in Computer Science at Durham University in Quantum Information and Networking.
