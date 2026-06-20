@@ -6,6 +6,21 @@ $text-dark: #2c3440;
 $text-muted: #5a6675;
 $card-shadow: 0 10px 30px rgba(31, 95, 168, 0.08);
 
+:root {
+  --global-theme-color: #1f5fa8;
+  --global-hover-color: #174a81;
+  --global-hover-text-color: #ffffff;
+  --global-code-bg-color: rgba(31, 95, 168, 0.06);
+  --global-highlight-color: #174a81;
+  --global-back-to-top-bg-color: rgba(31, 95, 168, 0.24);
+}
+
+html[data-theme="dark"] {
+  --global-theme-color: #63a4ff;
+  --global-hover-color: #8bbcff;
+  --global-hover-text-color: #0f172a;
+}
+
 body {
   background-color: #ffffff;
   color: $text-dark;
