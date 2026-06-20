@@ -179,7 +179,7 @@ third_party_libraries:
     version: "11.9.0"
 
 footer_text: >-
-  © 2026 Sanidhya Gupta. Theme: <a href="https://github.com/alshedivat/al-folio">al-folio</a> (MIT License).
+  Sanidhya Gupta · Durham University · <a href="mailto:sanidhya.gupta@durham.ac.uk">sanidhya.gupta@durham.ac.uk</a>
 
 exclude:
   - README.md
