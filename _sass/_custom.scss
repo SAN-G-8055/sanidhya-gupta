@@ -262,13 +262,17 @@ h4 {
 /* Content box styling for about page */
 article {
   position: relative;
+  display: grid;
+  grid-template-columns: minmax(260px, 320px) minmax(0, 1fr);
+  column-gap: 2rem;
+  align-items: start;
 }
 
 article .profile {
-  float: left;
-  margin-right: 2rem;
-  margin-bottom: 1rem;
-  width: 300px;
+  grid-column: 1;
+  float: none;
+  margin: 0;
+  width: 100%;
   flex-shrink: 0;
 }
 
@@ -352,11 +356,12 @@ article .profile .more-info {
 }
 
 article .clearfix {
+  grid-column: 2;
   background: transparent;
   border: none;
   border-radius: 0;
-  padding: 0 2rem 0 2.5rem;
-  margin-left: 0.75rem;
+  padding: 0;
+  margin-left: 0;
   overflow: visible;
 }
 
@@ -372,11 +377,25 @@ article .clearfix > hr {
 @media (min-width: 901px) {
   article .clearfix,
   .hero-grid > div:first-child {
-    width: calc(100% - 0.75rem);
+    width: 100%;
   }
 }
 
 @media (max-width: 900px) {
+  article {
+    display: block;
+  }
+
+  article .profile {
+    width: 100%;
+    margin: 0 0 1.25rem 0;
+  }
+
+  article .clearfix {
+    padding: 0;
+    margin-left: 0;
+  }
+
   .hero-grid,
   .theme-grid,
   .news-list,
@@ -414,4 +433,45 @@ a:hover, a:focus {
 .hero-grid > div:first-child {
   background: #edf4fb !important;
   border-color: #d9e6f3 !important;
+}
+
+/* Final theme-color overrides placed at file end so they win over al-folio defaults */
+:root,
+html,
+body {
+  --global-theme-color: #1f5fa8 !important;
+  --global-hover-color: #174a81 !important;
+  --global-hover-text-color: #ffffff !important;
+  --global-code-bg-color: rgba(31, 95, 168, 0.06) !important;
+  --global-highlight-color: #174a81 !important;
+  --global-back-to-top-bg-color: rgba(31, 95, 168, 0.24) !important;
+}
+
+html[data-theme="dark"] {
+  --global-theme-color: #63a4ff !important;
+  --global-hover-color: #8bbcff !important;
+  --global-hover-text-color: #0f172a !important;
+}
+
+.post a,
+.post a:visited,
+.post .news a,
+.post .profile a,
+.post .clearfix a,
+.navbar a,
+.nav-link,
+.profile-link,
+.profile-link:visited {
+  color: #1f5fa8 !important;
+}
+
+.post a:hover,
+.post a:focus,
+.post .news a:hover,
+.post .profile a:hover,
+.post .clearfix a:hover,
+.navbar a:hover,
+.nav-link:hover,
+.profile-link:hover {
+  color: #174a81 !important;
 }
