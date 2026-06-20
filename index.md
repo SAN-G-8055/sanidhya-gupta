@@ -26,6 +26,103 @@ selected_papers: false
 social: true  
 ---
 
+<style>
+  :root {
+    --global-theme-color: #1f5fa8 !important;
+    --global-hover-color: #174a81 !important;
+    --global-hover-text-color: #ffffff !important;
+  }
+
+  .post a,
+  .post a:visited,
+  .post .nav-link,
+  .post .profile a,
+  .post .more-info a {
+    color: #1f5fa8 !important;
+  }
+
+  .post a:hover,
+  .post a:focus,
+  .post .profile a:hover,
+  .post .more-info a:hover {
+    color: #174a81 !important;
+  }
+
+  .post article {
+    display: grid;
+    grid-template-columns: 320px minmax(0, 1fr);
+    column-gap: 2rem;
+    align-items: start;
+  }
+
+  .post article .profile {
+    grid-column: 1;
+    float: none;
+    width: 100%;
+    margin: 0;
+  }
+
+  .post article .clearfix {
+    grid-column: 2;
+    margin: 0;
+    padding: 0;
+  }
+
+  .post article .profile .more-info {
+    margin-top: 0.9rem;
+    text-align: center;
+  }
+
+  .post article .profile .more-info p,
+  .post article .profile .more-info small,
+  .post article .profile .more-info br {
+    display: none !important;
+  }
+
+  .post article .profile .profile-socials {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin: 0.9rem 0 0 0;
+  }
+
+  .post article .profile .profile-link,
+  .post article .profile .profile-link:visited {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: #edf4fb;
+    border: 1px solid #d9e6f3;
+    color: #1f5fa8 !important;
+  }
+
+  .post article .profile .profile-link svg {
+    color: #1f5fa8 !important;
+  }
+
+  .post article .profile .profile-link:hover {
+    background: #1f5fa8;
+    color: #ffffff !important;
+  }
+
+  .post article .profile .profile-link:hover svg {
+    color: #ffffff !important;
+  }
+
+  @media (max-width: 900px) {
+    .post article {
+      display: block;
+    }
+
+    .post article .profile {
+      margin-bottom: 1.25rem;
+    }
+  }
+</style>
+
 Hello! I am a Ph.D. student in Computer Science (Quantum Information & Networking) at <a href="https://www.durham.ac.uk/departments/academic/computer-science/">Durham University</a>, advised by [Dr. Thirupathaiah Vasantam](https://scholar.google.com/citations?user=tRd9i5kAAAAJ&hl=en) and [Prof. Neil Walton](https://scholar.google.com/citations?user=6ggttpsAAAAJ&hl=en). 
 
 My research lies at the intersection of **quantum computing, network theory, and computer architecture**. I focus on developing systems-level scheduling and resource-allocation frameworks for **Modular Fault-Tolerant Quantum Computing (FTQC)**. My goal is to design control and networking protocols that allow distributed, multi-core quantum computers to act as a single, powerful machine. To do this, I combine tools from queueing theory, stochastic modeling, and quantum error correction.
