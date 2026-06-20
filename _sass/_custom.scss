@@ -11,14 +11,28 @@ body {
   color: $text-dark;
 }
 
+html body,
+body,
+.post,
+.post p,
+.post li,
+.post-header,
+.post-title,
+.post-description,
+.navbar,
+.nav-link,
+.navbar .navbar-brand {
+  color: $text-dark !important;
+}
+
 a,
 a:visited {
-  color: $accent-blue;
+  color: $accent-blue !important;
 }
 
 a:hover,
 a:focus {
-  color: $accent-blue-dark;
+  color: $accent-blue-dark !important;
 }
 
 .navbar,
@@ -248,12 +262,18 @@ article .profile .more-info {
   text-align: center;
 }
 
+.profile .more-info p,
+.profile .more-info small,
+.profile .more-info br {
+  display: none !important;
+}
+
 .profile-socials {
   display: flex;
   justify-content: center;
   gap: 1rem;
-  margin-top: 1rem;
-  margin-bottom: 1.5rem;
+  margin-top: 0.9rem;
+  margin-bottom: 0;
 }
 
 .profile-link {
@@ -364,6 +384,15 @@ a, a:visited {
 a:hover, a:focus {
   color: #174a81 !important;
 }
+.profile-link,
+.profile-link:visited,
+.profile-link svg {
+  color: #1f5fa8 !important;
+}
+.profile-link:hover,
+.profile-link:hover svg {
+  color: #ffffff !important;
+}
 .home-title, .post-title, .title, h1, h2, h3, h4 {
   color: #1f2e3d !important;
 }
@@ -371,4 +400,3 @@ a:hover, a:focus {
   background: #edf4fb !important;
   border-color: #d9e6f3 !important;
 }
-
