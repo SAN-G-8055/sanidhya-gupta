@@ -14,7 +14,7 @@ This website is built using a static site generator and deployed automatically v
 * **Hosting:** GitHub Pages
 
 ## Local Preview
-For local preview on your Mac, use:
+For local preview, use:
 
 ```bash
 bundle exec jekyll clean

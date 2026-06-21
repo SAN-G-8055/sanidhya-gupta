@@ -28,9 +28,9 @@ enable_anchorjs: true
 enable_math: false
 enable_tooltips: true
 navbar_fixed: true
-footer_fixed: true
+footer_fixed: false
 search_enabled: false
-max_width: 960px
+max_width: 1200px
 
 al_folio:
   api_version: 1
@@ -179,7 +179,7 @@ third_party_libraries:
     version: "11.9.0"
 
 footer_text: >-
-  Sanidhya Gupta · Durham University · <a href="mailto:sanidhya.gupta@durham.ac.uk">sanidhya.gupta@durham.ac.uk</a>
+  Theme: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
 
 exclude:
   - README.md

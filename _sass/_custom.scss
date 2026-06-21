@@ -13,6 +13,7 @@ $card-shadow: 0 10px 30px rgba(31, 95, 168, 0.08);
   --global-code-bg-color: rgba(31, 95, 168, 0.06);
   --global-highlight-color: #174a81;
   --global-back-to-top-bg-color: rgba(31, 95, 168, 0.24);
+  --max-content-width: 1160px !important;
 }
 
 html[data-theme="dark"] {
@@ -24,6 +25,10 @@ html[data-theme="dark"] {
 body {
   background-color: #ffffff;
   color: $text-dark;
+}
+
+.container {
+  max-width: min(1160px, calc(100vw - 3rem)) !important;
 }
 
 html body,
@@ -40,18 +45,39 @@ body,
   color: $text-dark !important;
 }
 
-a,
-a:visited {
+html body a,
+html body a:link,
+html body a:visited,
+html body a:any-link,
+.post a,
+.post a:link,
+.post a:visited,
+.post a:any-link,
+.navbar a,
+.navbar a:link,
+.navbar a:visited,
+.navbar a:any-link,
+footer a,
+footer a:link,
+footer a:visited,
+footer a:any-link {
   color: $accent-blue !important;
 }
 
-a:hover,
-a:focus {
+html body a:hover,
+html body a:focus,
+.post a:hover,
+.post a:focus,
+.navbar a:hover,
+.navbar a:focus,
+footer a:hover,
+footer a:focus {
   color: $accent-blue-dark !important;
 }
 
 .navbar,
-footer.fixed-bottom {
+footer.fixed-bottom,
+footer.sticky-bottom-footer {
   background: rgba(255, 255, 255, 0.96);
   border-color: $border-soft;
   box-shadow: 0 8px 25px rgba(31, 95, 168, 0.04);
@@ -59,7 +85,8 @@ footer.fixed-bottom {
 
 .navbar .navbar-nav .nav-link,
 .navbar .navbar-brand,
-footer.fixed-bottom {
+footer.fixed-bottom,
+footer.sticky-bottom-footer {
   color: $text-dark;
 }
 
@@ -249,6 +276,190 @@ h4 {
   margin-bottom: 0;
 }
 
+.publication-list {
+  display: grid;
+  gap: 1rem;
+}
+
+.publications-shell {
+  max-width: 900px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.publication-items {
+  display: grid;
+  gap: 1.25rem;
+  max-width: 900px;
+}
+
+.publication-item {
+  display: grid;
+  grid-template-columns: 2rem minmax(0, 1fr);
+  column-gap: 0.8rem;
+  align-items: start;
+}
+
+.pub-num {
+  color: $text-dark;
+  font-weight: 500;
+  line-height: 1.7;
+}
+
+.pub-copy {
+  color: $text-dark;
+  line-height: 1.7;
+  min-width: 0;
+}
+
+.pub-copy .pub-authors,
+.pub-copy .pub-title,
+.pub-copy .pub-venue {
+  display: inline;
+}
+
+.pub-copy .pub-title {
+  font-weight: 600;
+  color: $accent-blue !important;
+  text-decoration: none;
+}
+
+.pub-copy .pub-title:hover {
+  color: $accent-blue-dark !important;
+  text-decoration: underline;
+}
+
+.publication-card {
+  background: #fff;
+  border: 1px solid $border-soft;
+  border-radius: 18px;
+  box-shadow: $card-shadow;
+  padding: 1.2rem 1.35rem;
+}
+
+.publication-card h3 {
+  margin: 0.15rem 0 0.45rem;
+  font-size: 1.15rem;
+}
+
+.publication-year {
+  display: inline-block;
+  margin-bottom: 0.5rem;
+  padding: 0.24rem 0.65rem;
+  border-radius: 999px;
+  background: $soft-blue;
+  color: $accent-blue-dark;
+  font-size: 0.84rem;
+  font-weight: 700;
+}
+
+.publication-authors {
+  margin-bottom: 0.35rem !important;
+  color: $text-dark;
+}
+
+.publication-venue {
+  color: $text-muted;
+}
+
+.contact-columns {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.5rem;
+  max-width: 960px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.contact-main,
+.contact-side {
+  flex: 1 1 0;
+  min-width: 0;
+}
+
+.contact-main {
+  display: grid;
+  gap: 1.25rem;
+}
+
+.contact-layout {
+  display: grid;
+  grid-template-columns: minmax(320px, 1fr) minmax(320px, 1fr);
+  gap: 1.5rem;
+  align-items: start;
+  max-width: 960px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.contact-stack {
+  display: grid;
+  gap: 1.25rem;
+  grid-column: 1;
+  min-width: 0;
+}
+
+.contact-card h2 {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  margin-bottom: 0.85rem;
+  font-size: 1.15rem;
+}
+
+.contact-card h2 i {
+  color: $accent-blue;
+}
+
+.contact-profiles {
+  grid-column: 2;
+  justify-self: stretch;
+  align-self: start;
+  min-width: 0;
+}
+
+.contact-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 0.9rem;
+}
+
+.contact-links li {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  color: $text-dark;
+}
+
+.contact-links i {
+  width: 1.35rem;
+  text-align: center;
+  color: $accent-blue;
+  font-size: 1.1rem;
+}
+
+.contact-card a,
+.contact-card a:visited,
+.publication-card a,
+.publication-card a:visited {
+  color: $accent-blue !important;
+}
+
+.contact-card a:hover,
+.publication-card a:hover {
+  color: $accent-blue-dark !important;
+}
+
+.contact-card {
+  position: relative;
+  min-width: 0;
+  width: 100%;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
 .publication-note {
   padding: 1rem 1.15rem;
   margin-bottom: 1.5rem;
@@ -263,17 +474,21 @@ h4 {
 article {
   position: relative;
   display: grid;
-  grid-template-columns: minmax(260px, 320px) minmax(0, 1fr);
+  grid-template-columns: 280px minmax(0, 760px);
   column-gap: 2rem;
   align-items: start;
+  width: 100%;
 }
 
 article .profile {
   grid-column: 1;
+  grid-row: 1;
   float: none;
   margin: 0;
-  width: 100%;
+  width: 280px;
   flex-shrink: 0;
+  justify-self: start;
+  align-self: center;
 }
 
 article .profile .more-info {
@@ -308,13 +523,12 @@ article .profile .more-info {
   text-decoration: none;
   transition: all 0.3s ease;
   font-size: 1.3rem;
+}
 
-  svg {
-    width: 24px;
-    height: 24px;
-    color: $accent-blue;
-    transition: color 0.3s ease;
-  }
+.profile-link i {
+  color: $accent-blue;
+  transition: color 0.3s ease;
+  font-size: 1.35rem;
 }
 
 .profile-link:hover {
@@ -322,47 +536,87 @@ article .profile .more-info {
   color: #fff !important;
   transform: translateY(-2px);
   box-shadow: 0 6px 16px rgba(31, 95, 168, 0.18);
-
-  svg {
-    color: #fff;
-  }
 }
 
-/* Footer small-print: static at bottom of content, muted */
-.site-footer {
-  position: static !important;
-  background: transparent;
-  padding: 0.6rem 0 1rem 0;
-  clear: both;
+.profile-link:hover i {
+  color: #fff;
 }
-.site-footer .footer-text {
-  font-size: 0.9rem;
-  color: #6b7280; /* muted gray */
-  margin: 0.25rem 0;
-}
-.site-footer .footer-text a { color: inherit; text-decoration: underline; }
 
-/* Hide the theme's floating footer to avoid duplicate/pop-out footer */
-.fixed-bottom { display: none !important; }
-
-/* Static page footer (used on home page) */
-.page-footer {
-  padding: 0.6rem 0 1rem 0;
-  text-align: center;
+footer.fixed-bottom,
+footer.sticky-bottom-footer {
+  margin-top: 2rem;
+  border-top: 1px solid $border-soft;
 }
-.page-footer .footer-text {
+
+footer.fixed-bottom .container,
+footer.sticky-bottom-footer .container {
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
+}
+
+footer.fixed-bottom .container,
+footer.sticky-bottom-footer .container,
+footer.fixed-bottom .container p,
+footer.sticky-bottom-footer .container p {
   font-size: 0.9rem;
   color: #6b7280;
 }
 
+footer.fixed-bottom a,
+footer.sticky-bottom-footer a {
+  color: inherit !important;
+  text-decoration: underline;
+}
+
+footer.sticky-bottom {
+  margin-top: 2.5rem;
+  border-top: 1px solid $border-soft;
+  background: rgba(255, 255, 255, 0.96);
+}
+
+footer.sticky-bottom .footer-inline {
+  padding-top: 0.9rem;
+  padding-bottom: 0.9rem;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #6b7280;
+}
+
+footer.sticky-bottom .footer-inline a {
+  color: inherit !important;
+  text-decoration: underline;
+}
+
+footer.sticky-bottom .footer-inline,
+footer.sticky-bottom .footer-inline a,
+footer.sticky-bottom .footer-inline a:visited,
+footer.sticky-bottom .footer-inline a:any-link {
+  color: #6b7280 !important;
+}
+
+footer.sticky-bottom .footer-inline a:hover,
+footer.sticky-bottom .footer-inline a:focus {
+  color: $accent-blue-dark !important;
+}
+
 article .clearfix {
+  display: contents;
+}
+
+.about-intro {
   grid-column: 2;
-  background: transparent;
-  border: none;
-  border-radius: 0;
-  padding: 0;
-  margin-left: 0;
-  overflow: visible;
+  grid-row: 1;
+  align-self: center;
+  width: 100%;
+  max-width: 760px;
+}
+
+.home-sections {
+  grid-column: 1 / -1;
+  grid-row: 2;
+  width: 100%;
+  margin-top: 1rem;
+  max-width: 1040px;
 }
 
 /* Keep the lower content aligned with the shifted text column */
@@ -399,8 +653,21 @@ article .clearfix > hr {
   .hero-grid,
   .theme-grid,
   .news-list,
-  .contact-grid {
+  .contact-grid,
+  .contact-layout {
     grid-template-columns: 1fr;
+  }
+
+  .publication-item {
+    grid-template-columns: 1.8rem minmax(0, 1fr);
+  }
+
+  .contact-columns {
+    display: block;
+  }
+
+  .contact-side {
+    margin-top: 1.25rem;
   }
 
   .hero-grid {
