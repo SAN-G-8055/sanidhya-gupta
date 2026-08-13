@@ -56,12 +56,13 @@ nav_order: 2
 
 <div class="publications-shell">
   <div class="publication-items">
+
     <div class="publication-item">
       <div class="pub-num">1.</div>
       <div class="pub-copy">
         <span class="pub-authors">Gupta, S., Bhambay, S., Alavisamani, N., Walton, N., &amp; Vasantam, T. </span>
         <a class="pub-title" href="https://arxiv.org/abs/2604.22471">"Boundary-Aware Stabilizer Scheduling for Distributed Quantum Error Correction."</a>
-        <span class="pub-venue">arXiv:2604.22471, 2026.</span>
+        <span class="pub-venue">Accepted technical paper, Quantum Networking &amp; Communications (QNET) track, IEEE Quantum Week (QCE 2026). arXiv:2604.22471.</span>
       </div>
     </div>
 
@@ -70,7 +71,7 @@ nav_order: 2
       <div class="pub-copy">
         <span class="pub-authors">Gupta, S., &amp; Raina, A. </span>
         <a class="pub-title" href="https://arxiv.org/abs/2403.07596">"A Provably Secure Framework for Noise-Aware Delegated Quantum Computation and Storage."</a>
-        <span class="pub-venue">arXiv:2403.07596, 2025.</span>
+        <span class="pub-venue">Accepted for publication in <em>Quantum Information Processing</em>, 2026. arXiv:2403.07596.</span>
       </div>
     </div>
 
@@ -91,5 +92,6 @@ nav_order: 2
         <span class="pub-venue">National Conference on Communications (NCC), 2023.</span>
       </div>
     </div>
+
   </div>
 </div>
