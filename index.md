@@ -167,9 +167,23 @@ social: true
 
 <h3>News</h3>
 <ul>
+    <li><strong>August 13, 2026:</strong> Our paper <strong>"A Provably Secure Framework for Noise-Aware Delegated Quantum Computation and Storage"</strong>, with Ankur Raina, was accepted for publication in <em>Quantum Information Processing</em>.</li>
+
+  <li><strong>August 10, 2026:</strong> Currently attending the <a href="https://www.sdu.dk/en/forskning/qm/events/niels-bohr-quantum-summer-school-2026">Niels Bohr Quantum Summer School 2026</a> at the University of Southern Denmark, focusing on quantum algorithms and quantum software.</li>
+
+  <li><strong>July 6, 2026:</strong> Our paper <a href="https://arxiv.org/abs/2604.22471"><strong>"Boundary-Aware Stabilizer Scheduling for Distributed Quantum Error Correction"</strong></a> was accepted as a technical paper in the <strong>Quantum Networking & Communications (QNET)</strong> track at IEEE Quantum Week (QCE 2026).</li>
+
+  <li><strong>July 2, 2026:</strong> Successfully passed my 9-month Annual Progress Review for my PhD at Durham University.</li>
+
+  <li><strong>June 26, 2026:</strong> Attended <a href="https://qec.codes/tartan2026/"><strong>TartanQEC 2026</strong></a> at the University of Edinburgh, a workshop focused on the practical methods of quantum error correction.</li>
+
+  <li><strong>June 22, 2026:</strong> Presented <strong>"Scheduling Quantum Error Correction Across Networked Quantum Processors"</strong> at Durham University's Inter-Collegiate Research Conference 2026.</li>
+
   <li><strong>June 18, 2026:</strong> Attended the <a href="https://informed-ai.net/event/summer-school-2026/">INFORMED AI Summer School 2026</a>, held at the University of Bristol School of Mathematics from 15-18 June 2026.</li>
+
   <li><strong>May 13, 2026:</strong> Attended the <a href="https://iqnhub.org/qnetworks-2026/#programme">QNetworks 2026 workshop</a>, held in Bristol on 12-13 May 2026, on quantum networking and distributed quantum computing.</li>
-  <li><strong>October 01, 2025:</strong> Started the PhD in Computer Science at Durham University in Quantum Information and Networking.</li>
+
+  <li><strong>October 1, 2025:</strong> Started my PhD in Computer Science at Durham University in Quantum Information and Networking.</li>
 </ul>
 
 </div>
