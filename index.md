@@ -169,7 +169,7 @@ social: true
 
 <h3>News</h3>
 <ul>
-  <li><strong>August 13, 2026:</strong> Our paper <a href="https://arxiv.org/abs/2403.07596"><strong>"A Provably Secure Framework for Noise-Aware Delegated Quantum Computation and Storage"</strong></a>, with Ankur Raina, was accepted for publication in <em>Quantum Information Processing</em>.</li>
+  <li><strong>August 13, 2026:</strong> Our paper <a href="https://arxiv.org/abs/2403.07596"><strong>"A Provably Secure Framework for Noise-Aware Delegated Quantum Computation and Storage"</strong></a>, was accepted for publication in <em>Quantum Information Processing</em>.</li>
 
   <li><strong>August 10–21, 2026:</strong> Currently attending the <a href="https://www.sdu.dk/en/forskning/qm/events/niels-bohr-quantum-summer-school-2026"><strong>Niels Bohr Quantum Summer School 2026</strong></a> at the University of Southern Denmark, focusing on quantum algorithms and quantum software.</li>
 
