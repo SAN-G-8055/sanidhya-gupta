@@ -169,25 +169,27 @@ social: true
 
 <h3>News</h3>
 <ul>
-  <li><strong>August 13, 2026:</strong> Our paper <a href="https://arxiv.org/abs/2403.07596"><strong>"A Provably Secure Framework for Noise-Aware Delegated Quantum Computation and Storage"</strong></a>, was accepted for publication in <em>Quantum Information Processing</em>.</li>
+  <li><strong>September 13–18, 2026:</strong> Attending <a href="https://qce.quantum.ieee.org/2026/"><strong>IEEE Quantum Week (QCE 2026)</strong></a> in Toronto, Canada, where I am presenting our technical paper <a href="https://arxiv.org/abs/2604.22471"><strong>"Boundary-Aware Stabilizer Scheduling for Distributed Quantum Error Correction"</strong></a> in the Quantum Networks and Communications (QNET) track.</li>
 
-  <li><strong>August 10–21, 2026:</strong> Currently attending the <a href="https://www.sdu.dk/en/forskning/qm/events/niels-bohr-quantum-summer-school-2026"><strong>Niels Bohr Quantum Summer School 2026</strong></a> at the University of Southern Denmark, focusing on quantum algorithms and quantum software.</li>
+  <li><strong>August 13, 2026:</strong> Our paper <a href="https://doi.org/10.1007/s11128-026-05329-4"><strong>"A Provably Secure Framework for Noise-Aware Delegated Quantum Computation and Storage"</strong></a> was accepted for publication in <em>Quantum Information Processing</em>, vol. 25, Article 309 (2026).</li>
 
-  <li><strong>July 6, 2026:</strong> Our paper <a href="https://arxiv.org/abs/2604.22471"><strong>"Boundary-Aware Stabilizer Scheduling for Distributed Quantum Error Correction"</strong></a> was accepted as a technical paper in the <strong>Quantum Networking &amp; Communications (QNET)</strong> track at IEEE Quantum Week (QCE 2026).</li>
+  <li><strong>August 10–21, 2026:</strong> Attended the <a href="https://www.sdu.dk/en/forskning/qm/events/niels-bohr-quantum-summer-school-2026"><strong>Niels Bohr Quantum Summer School 2026</strong></a> at the University of Southern Denmark, focusing on quantum algorithms, quantum software, and quantum technologies.</li>
 
-  <li><strong>July 2, 2026:</strong> Successfully passed my 9-month Annual Progress Review for my PhD at Durham University.</li>
+  <li><strong>July 6, 2026:</strong> Our paper <a href="https://arxiv.org/abs/2604.22471"><strong>"Boundary-Aware Stabilizer Scheduling for Distributed Quantum Error Correction"</strong></a> was accepted as a technical paper in the <strong>Quantum Networks and Communications (QNET)</strong> track at IEEE Quantum Week (QCE 2026).</li>
 
-  <li><strong>June 24–26, 2026:</strong> Attended <a href="https://qec.codes/tartan2026/"><strong>TartanQEC 2026</strong></a> at the University of Edinburgh, a workshop focused on practical quantum error correction.</li>
+  <li><strong>July 2, 2026:</strong> Successfully passed my Annual Progress Review and progressed to the next stage of my PhD at Durham University.</li>
 
-  <li><strong>June 22, 2026:</strong> Presented <strong>"Scheduling Quantum Error Correction Across Networked Quantum Processors"</strong> at Durham University's Inter-Collegiate Research Conference 2026.</li>
+  <li><strong>June 24–26, 2026:</strong> Attended <a href="https://qec.codes/tartan2026/"><strong>TartanQEC 2026</strong></a> at the University of Edinburgh, a workshop focused on practical quantum error correction and fault-tolerant quantum computing.</li>
 
-  <li><strong>June 15–18, 2026:</strong> Attended the <a href="https://informed-ai.net/event/summer-school-2026/"><strong>INFORMED AI Summer School 2026</strong></a> at the University of Bristol School of Mathematics.</li>
+  <li><strong>June 22, 2026:</strong> Presented <strong>"Scheduling Quantum Error Correction Across Networked Quantum Processors"</strong> at Durham University's Intercollegiate Research Conference 2026.</li>
+
+  <li><strong>June 15–18, 2026:</strong> Attended the <a href="https://informed-ai.net/event/summer-school-2026/"><strong>INFORMED AI Summer School 2026</strong></a> at the University of Bristol.</li>
 
   <li><strong>June 9–11, 2026:</strong> Volunteered at <a href="https://sirocco2026.webspace.durham.ac.uk/"><strong>SIROCCO 2026</strong></a>, the 33rd International Colloquium on Structural Information and Communication Complexity, held at Durham University.</li>
 
   <li><strong>May 12–13, 2026:</strong> Attended the <a href="https://iqnhub.org/qnetworks-2026/#programme"><strong>QNetworks 2026</strong></a> workshop in Bristol on quantum networking and distributed quantum computing.</li>
 
-  <li><strong>October 1, 2025:</strong> Started my PhD in Computer Science at Durham University in Quantum Information and Networking.</li>
+  <li><strong>October 1, 2025:</strong> Started my PhD in Computer Science at Durham University, working on quantum information, networking, and modular fault-tolerant quantum computing.</li>
 </ul>
 
 </div>
